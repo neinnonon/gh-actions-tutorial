@@ -19,5 +19,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{ inputs.greeting }}, ${{ inputs.target }}! "
-      - run: echo "actor ${{ github.actor }}"; echo "workspace ${{github.workspace}}; echo "event ${{ github.event }}"
+      - run: echo "actor ${{ github.actor }}"; echo "workspace ${{github.workspace}}"; echo "event ${{ github.event }}"
       - run: echo "action ${GITHUB_ACTION}"; echo "repo ${GITHUB_REPOSITORY}"
